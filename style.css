@@ -1,0 +1,31 @@
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23%;
+}
+
+input, button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button{
+    background-color: aqua;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23%;
+    color: white;
+}
