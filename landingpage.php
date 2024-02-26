@@ -1,7 +1,9 @@
 <?php 
 
-    $email = $_POST['email'];
-    $password = $_POST['password']
+    $paragrafo = $_POST['paragrafo'];
+    $censura = $_POST['censura'];
+
+    $paragrafoCensurato = str_replace("$censura", "***", "$paragrafo");
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +16,7 @@
 </head>
 <body>
     <h1>
-        <?php echo "La tua email:" . " " . $email . '<br>' . 'La tua password:' . " " . str_replace("$password", "***", "***")?>
+        <?php echo "Il tuo paragrafo:" . " " . $paragrafo . '.' . ' ' . 'La sua lunghezza e di :' . ' ' . strlen($paragrafo) . ' ' . 'caratteri' . '<br>' . 'Il paragrafo con la parola censurata:' . " " . $paragrafoCensurato . '.' . ' ' . 'La sua lunghezza ora e di :' . ' ' . strlen($paragrafoCensurato) ?>
     </h1>
 </body>
 </html>

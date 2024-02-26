@@ -9,8 +9,8 @@
 </head>
 <body>
     <form action="landingpage.php" method="POST">
-        <input type="e-mail" name="email" placeholder="inserisci la tua mail">
-        <input type="text" name="password" placeholder="inserisci la tua passowrd">
+        <textarea name="paragrafo" id="" cols="30" rows="10"></textarea>
+        <input type="text" name="censura" placeholder="inserisci la parola da censurare">
         <button class="bg-primary rounded-2">Submit</button>
     </form>
 </body>

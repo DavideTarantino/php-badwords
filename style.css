@@ -10,10 +10,15 @@ form{
     margin-top: 23%;
 }
 
-input, button{
+input,textarea, button{
     padding: 10px;
     border-radius: 20px;
     border: none;
+}
+
+textarea{
+    height: 11px;
+    overflow: hidden;
 }
 
 button{
@@ -28,4 +33,5 @@ h1{
     justify-content: center;
     margin-top: 23%;
     color: white;
+    text-align: center;
 }
